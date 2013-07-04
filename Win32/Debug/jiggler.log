@@ -1,0 +1,30 @@
+﻿Build started 7/4/2013 11:54:04 AM.
+     1>Project "C:\Users\vaderas\Desktop\automatinglync2010\jiggler\jiggler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\ /ZI /nologo /W3 /WX- /Od /Oy- /D _CONSOLE /D SERVICE /D LOADER_EXPORTS /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt runner.cpp
+         runner.cpp
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\loader.h(13): warning C4005: 'Output' : macro redefinition
+                 c:\users\vaderas\desktop\automatinglync2010\jiggler\loader.h(12) : see previous definition of 'Output'
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\stdafx.h(22): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\runner.cpp(18): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(1048) : see declaration of 'wcsncat'
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\runner.cpp(19): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(587) : see declaration of '_wfopen'
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\runner.cpp(24): warning C4996: '_vswprintf': This function or variable may be unsafe. Consider using vswprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(530) : see declaration of '_vswprintf'
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\runner.cpp(11): warning C4101: 'path' : unreferenced local variable
+     1>c:\users\vaderas\desktop\automatinglync2010\jiggler\runner.cpp(47): warning C4002: too many actual parameters for macro 'Output'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Win32\Debug\jiggler.res" jiggler.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vaderas\Desktop\automatinglync2010\jiggler\Win32\Debug\ccApp.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vaderas\Desktop\automatinglync2010\jiggler\Win32\Debug\ccApp.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vaderas\Desktop\automatinglync2010\jiggler\Win32\Debug\ccApp.lib" /MACHINE:X86 Win32\Debug\jiggler.res
+         Win32\Debug\jiggle.obj
+         Win32\Debug\runner.obj
+     1>jiggle.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library C:\Users\vaderas\Desktop\automatinglync2010\jiggler\Win32\Debug\ccApp.lib and object C:\Users\vaderas\Desktop\automatinglync2010\jiggler\Win32\Debug\ccApp.exp
+         jiggler.vcxproj -> C:\Users\vaderas\Desktop\automatinglync2010\jiggler\Win32\Debug\ccApp.exe
+     1>Done Building Project "C:\Users\vaderas\Desktop\automatinglync2010\jiggler\jiggler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
